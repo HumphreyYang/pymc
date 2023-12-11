@@ -37,6 +37,7 @@
 from pymc.logprob.basic import (
     conditional_logp,
     icdf,
+    kl_div,
     logcdf,
     logp,
     transformed_conditional_logp,
@@ -53,6 +54,7 @@ import pymc.logprob.order
 import pymc.logprob.scan
 import pymc.logprob.tensor
 import pymc.logprob.transforms
+import pymc.logprob.kl_divergence
 
 # isort: on
 
@@ -60,4 +62,5 @@ __all__ = (
     "logp",
     "logcdf",
     "icdf",
+    "kl_div",
 )
